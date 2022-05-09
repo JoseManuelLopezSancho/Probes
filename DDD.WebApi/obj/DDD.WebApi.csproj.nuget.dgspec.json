@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Proyectos\\DDD\\ddd.api\\DDD.WebApi\\DDD.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj",
+        "projectName": "DDD.Core",
+        "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj",
+        "packagesPath": "C:\\Users\\jmlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj",
+        "projectName": "DDD.Application",
+        "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj",
+        "packagesPath": "C:\\Users\\jmlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj": {
+                "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj",
+        "projectName": "DDD.Infrastructure",
+        "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jmlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj": {
+                "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\ClassLibrary1\\DDD.Core.csproj"
+              },
+              "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj": {
+                "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\DDD\\ddd.api\\DDD.WebApi\\DDD.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\DDD\\ddd.api\\DDD.WebApi\\DDD.WebApi.csproj",
+        "projectName": "DDD.WebApi",
+        "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.WebApi\\DDD.WebApi.csproj",
+        "packagesPath": "C:\\Users\\jmlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj": {
+                "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Application\\DDD.Application.csproj"
+              },
+              "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj": {
+                "projectPath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

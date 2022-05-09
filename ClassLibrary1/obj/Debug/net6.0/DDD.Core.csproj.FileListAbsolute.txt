@@ -1,0 +1,12 @@
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\bin\Debug\net6.0\DDD.Core.deps.json
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\bin\Debug\net6.0\DDD.Core.dll
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\bin\Debug\net6.0\DDD.Core.pdb
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.csproj.AssemblyReference.cache
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.AssemblyInfoInputs.cache
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.AssemblyInfo.cs
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.csproj.CoreCompileInputs.cache
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.dll
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\refint\DDD.Core.dll
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\DDD.Core.pdb
+D:\Proyectos\DDD\ddd.api\ClassLibrary1\obj\Debug\net6.0\ref\DDD.Core.dll

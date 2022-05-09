@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bc3+iXwlDRWT2Y3+ewVxICl8LqSxyXMRS6cSRz/BDvlDd5PGNsMw/WkHj88Oj729KdZtLTak9dH+Jkh5qpZusg==",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos\\DDD\\ddd.api\\DDD.Infrastructure\\DDD.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmlop\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
